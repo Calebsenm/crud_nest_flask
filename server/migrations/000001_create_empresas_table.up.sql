@@ -1,7 +1,5 @@
 
-CREATE DATABASE empresadb;
-
-CREATE TABLE empresas(
+CREATE TABLE  IF NOT EXISTS empresas(
     id SERIAL PRIMARY KEY NOT NULL,
     nombre_empresa VARCHAR(255) NOT NULL,
     direccion VARCHAR(255) NOT NULL, 
@@ -9,6 +7,3 @@ CREATE TABLE empresas(
     telefono INT NOT NULL, 
     correo VARCHAR(255) NOT NULL
 );
-
-
-
