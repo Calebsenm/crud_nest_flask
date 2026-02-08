@@ -9,7 +9,6 @@ function Info() {
 
   const [empresas, setEmpresas] = useState([]);
   
-
   useEffect(() => {
     const fetchData = async () => {
       const res = await fetch(`${url_backend}/empresas`);

@@ -11,7 +11,7 @@ app.register_blueprint(empresas)
 
 @app.route("/")
 def home():
-    return {"message": "API Flask funcionando"}
+    return {"message": "API Working"}
 
 
 if __name__ == "__main__":
